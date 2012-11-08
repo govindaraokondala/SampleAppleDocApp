@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27A319DB164BC8ED005DB952 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27A319DA164BC8ED005DB952 /* UIKit.framework */; };
+		27A319DD164BC8ED005DB952 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27A319DC164BC8ED005DB952 /* Foundation.framework */; };
+		27A319DF164BC8ED005DB952 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27A319DE164BC8ED005DB952 /* CoreGraphics.framework */; };
+		27A319E5164BC8ED005DB952 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27A319E3164BC8ED005DB952 /* InfoPlist.strings */; };
+		27A319E7164BC8ED005DB952 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A319E6164BC8ED005DB952 /* main.m */; };
+		27A319EB164BC8ED005DB952 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A319EA164BC8ED005DB952 /* AppDelegate.m */; };
+		27A319ED164BC8ED005DB952 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 27A319EC164BC8ED005DB952 /* Default.png */; };
+		27A319EF164BC8ED005DB952 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27A319EE164BC8ED005DB952 /* Default@2x.png */; };
+		27A319F1164BC8ED005DB952 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27A319F0164BC8ED005DB952 /* Default-568h@2x.png */; };
+		27A319F4164BC8ED005DB952 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A319F3164BC8ED005DB952 /* MasterViewController.m */; };
+		27A319F7164BC8ED005DB952 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27A319F6164BC8ED005DB952 /* DetailViewController.m */; };
+		27A319FA164BC8ED005DB952 /* MasterViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27A319F8164BC8ED005DB952 /* MasterViewController_iPhone.xib */; };
+		27A319FD164BC8ED005DB952 /* MasterViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27A319FB164BC8ED005DB952 /* MasterViewController_iPad.xib */; };
+		27A31A00164BC8ED005DB952 /* DetailViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27A319FE164BC8ED005DB952 /* DetailViewController_iPhone.xib */; };
+		27A31A03164BC8ED005DB952 /* DetailViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27A31A01164BC8ED005DB952 /* DetailViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		27A319D6164BC8ED005DB952 /* SampleAppleCal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleAppleCal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		27A319DA164BC8ED005DB952 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		27A319DC164BC8ED005DB952 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		27A319DE164BC8ED005DB952 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		27A319E2164BC8ED005DB952 /* SampleAppleCal-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SampleAppleCal-Info.plist"; sourceTree = "<group>"; };
+		27A319E4164BC8ED005DB952 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		27A319E6164BC8ED005DB952 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		27A319E8164BC8ED005DB952 /* SampleAppleCal-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SampleAppleCal-Prefix.pch"; sourceTree = "<group>"; };
+		27A319E9164BC8ED005DB952 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		27A319EA164BC8ED005DB952 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		27A319EC164BC8ED005DB952 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		27A319EE164BC8ED005DB952 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		27A319F0164BC8ED005DB952 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		27A319F2164BC8ED005DB952 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		27A319F3164BC8ED005DB952 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		27A319F5164BC8ED005DB952 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		27A319F6164BC8ED005DB952 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		27A319F9164BC8ED005DB952 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MasterViewController_iPhone.xib; sourceTree = "<group>"; };
+		27A319FC164BC8ED005DB952 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MasterViewController_iPad.xib; sourceTree = "<group>"; };
+		27A319FF164BC8ED005DB952 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController_iPhone.xib; sourceTree = "<group>"; };
+		27A31A02164BC8ED005DB952 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27A319D3164BC8ED005DB952 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27A319DB164BC8ED005DB952 /* UIKit.framework in Frameworks */,
+				27A319DD164BC8ED005DB952 /* Foundation.framework in Frameworks */,
+				27A319DF164BC8ED005DB952 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27A319CB164BC8ED005DB952 = {
+			isa = PBXGroup;
+			children = (
+				27A319E0164BC8ED005DB952 /* SampleAppleCal */,
+				27A319D9164BC8ED005DB952 /* Frameworks */,
+				27A319D7164BC8ED005DB952 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		27A319D7164BC8ED005DB952 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27A319D6164BC8ED005DB952 /* SampleAppleCal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27A319D9164BC8ED005DB952 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27A319DA164BC8ED005DB952 /* UIKit.framework */,
+				27A319DC164BC8ED005DB952 /* Foundation.framework */,
+				27A319DE164BC8ED005DB952 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		27A319E0164BC8ED005DB952 /* SampleAppleCal */ = {
+			isa = PBXGroup;
+			children = (
+				27A319E9164BC8ED005DB952 /* AppDelegate.h */,
+				27A319EA164BC8ED005DB952 /* AppDelegate.m */,
+				27A319F2164BC8ED005DB952 /* MasterViewController.h */,
+				27A319F3164BC8ED005DB952 /* MasterViewController.m */,
+				27A319F5164BC8ED005DB952 /* DetailViewController.h */,
+				27A319F6164BC8ED005DB952 /* DetailViewController.m */,
+				27A319F8164BC8ED005DB952 /* MasterViewController_iPhone.xib */,
+				27A319FB164BC8ED005DB952 /* MasterViewController_iPad.xib */,
+				27A319FE164BC8ED005DB952 /* DetailViewController_iPhone.xib */,
+				27A31A01164BC8ED005DB952 /* DetailViewController_iPad.xib */,
+				27A319E1164BC8ED005DB952 /* Supporting Files */,
+			);
+			path = SampleAppleCal;
+			sourceTree = "<group>";
+		};
+		27A319E1164BC8ED005DB952 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				27A319E2164BC8ED005DB952 /* SampleAppleCal-Info.plist */,
+				27A319E3164BC8ED005DB952 /* InfoPlist.strings */,
+				27A319E6164BC8ED005DB952 /* main.m */,
+				27A319E8164BC8ED005DB952 /* SampleAppleCal-Prefix.pch */,
+				27A319EC164BC8ED005DB952 /* Default.png */,
+				27A319EE164BC8ED005DB952 /* Default@2x.png */,
+				27A319F0164BC8ED005DB952 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27A319D5164BC8ED005DB952 /* SampleAppleCal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27A31A06164BC8ED005DB952 /* Build configuration list for PBXNativeTarget "SampleAppleCal" */;
+			buildPhases = (
+				27A319D2164BC8ED005DB952 /* Sources */,
+				27A319D3164BC8ED005DB952 /* Frameworks */,
+				27A319D4164BC8ED005DB952 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SampleAppleCal;
+			productName = SampleAppleCal;
+			productReference = 27A319D6164BC8ED005DB952 /* SampleAppleCal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27A319CD164BC8ED005DB952 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = hb;
+			};
+			buildConfigurationList = 27A319D0164BC8ED005DB952 /* Build configuration list for PBXProject "SampleAppleCal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 27A319CB164BC8ED005DB952;
+			productRefGroup = 27A319D7164BC8ED005DB952 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27A319D5164BC8ED005DB952 /* SampleAppleCal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27A319D4164BC8ED005DB952 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27A319E5164BC8ED005DB952 /* InfoPlist.strings in Resources */,
+				27A319ED164BC8ED005DB952 /* Default.png in Resources */,
+				27A319EF164BC8ED005DB952 /* Default@2x.png in Resources */,
+				27A319F1164BC8ED005DB952 /* Default-568h@2x.png in Resources */,
+				27A319FA164BC8ED005DB952 /* MasterViewController_iPhone.xib in Resources */,
+				27A319FD164BC8ED005DB952 /* MasterViewController_iPad.xib in Resources */,
+				27A31A00164BC8ED005DB952 /* DetailViewController_iPhone.xib in Resources */,
+				27A31A03164BC8ED005DB952 /* DetailViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27A319D2164BC8ED005DB952 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27A319E7164BC8ED005DB952 /* main.m in Sources */,
+				27A319EB164BC8ED005DB952 /* AppDelegate.m in Sources */,
+				27A319F4164BC8ED005DB952 /* MasterViewController.m in Sources */,
+				27A319F7164BC8ED005DB952 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		27A319E3164BC8ED005DB952 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27A319E4164BC8ED005DB952 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		27A319F8164BC8ED005DB952 /* MasterViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27A319F9164BC8ED005DB952 /* en */,
+			);
+			name = MasterViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		27A319FB164BC8ED005DB952 /* MasterViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27A319FC164BC8ED005DB952 /* en */,
+			);
+			name = MasterViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		27A319FE164BC8ED005DB952 /* DetailViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27A319FF164BC8ED005DB952 /* en */,
+			);
+			name = DetailViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		27A31A01164BC8ED005DB952 /* DetailViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27A31A02164BC8ED005DB952 /* en */,
+			);
+			name = DetailViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		27A31A04164BC8ED005DB952 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		27A31A05164BC8ED005DB952 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27A31A07164BC8ED005DB952 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleAppleCal/SampleAppleCal-Prefix.pch";
+				INFOPLIST_FILE = "SampleAppleCal/SampleAppleCal-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		27A31A08164BC8ED005DB952 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleAppleCal/SampleAppleCal-Prefix.pch";
+				INFOPLIST_FILE = "SampleAppleCal/SampleAppleCal-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27A319D0164BC8ED005DB952 /* Build configuration list for PBXProject "SampleAppleCal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27A31A04164BC8ED005DB952 /* Debug */,
+				27A31A05164BC8ED005DB952 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27A31A06164BC8ED005DB952 /* Build configuration list for PBXNativeTarget "SampleAppleCal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27A31A07164BC8ED005DB952 /* Debug */,
+				27A31A08164BC8ED005DB952 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27A319CD164BC8ED005DB952 /* Project object */;
+}
